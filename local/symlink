@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cdir=$(pwd)
+
+ddir="$HOME/.local"
+
+for x in *; do
+	if [ "$x" != "symlink"	]
+	then
+		ln -s "$cdir/$x" "$ddir/$x";
+	fi
+done

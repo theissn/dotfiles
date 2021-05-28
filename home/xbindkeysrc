@@ -10,6 +10,9 @@
 "st pulsemixer"
     Control+Alt+V
 
+"slock"
+    Control+Alt+L
+
 "pamixer -i 5 && pkill -RTMIN+10 dwmblocks"
     XF86AudioRaiseVolume
 

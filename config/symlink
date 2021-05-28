@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cdir=$(pwd)
+
+ddir="$HOME/.config"
+
+for x in *; do
+	if [ "$x" != "symlink" ]
+	then
+		ln -sf "$cdir/$x" "$ddir/$x";
+	fi
+done

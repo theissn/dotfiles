@@ -1,9 +1,0 @@
-#!/bin/sh
-
-cdir=$(pwd)
-
-ddir="/home/houston/.local/bin/sb"
-
-for x in sb-*; do
-	ln -s "$cdir/$x" "$ddir/$x";
-done

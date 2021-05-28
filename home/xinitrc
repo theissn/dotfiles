@@ -1,0 +1,13 @@
+picom --no-fading-openclose &
+transmission-daemon
+
+xrdb .xresources
+
+xbindkeys
+
+dwmblocks &
+
+key-remaps
+set-bg
+
+exec dwm
