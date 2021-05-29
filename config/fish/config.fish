@@ -16,3 +16,8 @@ end
 if type -q nvim 
    alias vim="nvim" 
 end
+
+alias vpn-u="sudo wg-quick up vpn68-gb-lon"
+alias vpn-d="sudo wg-quick down vpn68-gb-lon"
+
+alias trem="transmission-remote"

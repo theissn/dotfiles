@@ -1,0 +1,9 @@
+{
+  "default.route.alsa_card.pci-0000_00_1f.3:profile:off": [ ],
+  "default.route.alsa_card.pci-0000_00_1f.3:profile:output:analog-stereo+input:analog-stereo": [ "analog-output-speaker" ],
+  "default.route.alsa_card.pci-0000_00_1f.3:output:analog-output-speaker": { "mute": false, "volumes": [ 0.125000, 0.125000 ], "channels": [ "FL", "FR" ] },
+  "default.route.bluez_card.E8_85_4B_D6_53_C8:profile:a2dp-sink-aac": [ "headphone-output" ],
+  "default.route.bluez_card.E8_85_4B_D6_53_C8:output:headphone-output": { "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ], "latencyOffsetNsec": 0 },
+  "default.route.bluez_card.E8_85_4B_D6_53_C8:profile:headset-head-unit-cvsd": [ ],
+  "default.route.bluez_card.E8_85_4B_D6_53_C8:profile:a2dp-sink-sbc": [ ]
+}

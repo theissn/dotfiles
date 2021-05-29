@@ -14,9 +14,9 @@
     Control+Alt+L
 
 "srcot -s"
-    Control+Alt+Print
+    Control+Shift+Print
 
-"ranger"
+"st ranger"
     Control+Alt+B
 
 "pamixer -i 5 && pkill -RTMIN+10 dwmblocks"
